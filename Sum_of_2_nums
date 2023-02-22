@@ -1,0 +1,12 @@
+#include<stdio.h>    
+int main()
+{    
+int a=0,b=0,result=0;  
+printf("Enter first number:");  
+scanf("%d",&a);  
+printf("Enter second number:");  
+scanf("%d",&b);  
+result=a+b;  
+printf("Sum of 2 numbers:%d ",result);   
+return 0;  
+}    
